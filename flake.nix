@@ -71,7 +71,7 @@
           User = "container";
           WorkingDir = "/home/container";
           Env = [
-            "/home/container"
+            "ANGBAND_PATH=/home/container"
           ];
           Entrypoint = [
             "/bin/entrypoint.sh"
